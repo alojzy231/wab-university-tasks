@@ -1,0 +1,13 @@
+Zad 3.1 Pole i obwód koła 
+
+Zad 3.3 Pole trójkąta 
+
+Zad 3.3 Kalkulator 
+
+Zad 3.6 Operator sizeof() 
+
+Zad 3.7 Funkcje matematyczne 
+
+Zad 4.5.1 Zamiana liczb dziesiętnych na binarne , ósemkowe i szesnastkowe
+
+Zad 5.1 Ciąg Fibonacciego 
