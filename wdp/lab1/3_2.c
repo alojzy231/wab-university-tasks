@@ -5,7 +5,8 @@ int main()
 {
   float a, b, c;
 
-  printf("Wprowadz dlugosci bokow trojkata odzdzielonych spacja: ");
+  printf("Wprowadz dlugosci bokow trojkata oddzielonych spacja: ");
+
   scanf("%f", &a);
   scanf("%f", &b);
   scanf("%f", &c);
@@ -14,7 +15,7 @@ int main()
   {
     printf("Z podanych wielkosci bokow nie mozna skonstruowac trojkata.\n");
 
-    system("pause");
+    getchar();
     return 0;
   }
 

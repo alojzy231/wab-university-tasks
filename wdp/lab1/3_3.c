@@ -7,7 +7,9 @@ int main()
   printf("KALKULATOR\n");
 
   scanf("%lf", &a);
+
   operator= getchar();
+
   scanf("%lf", &b);
 
   double result;
@@ -16,12 +18,15 @@ int main()
   {
   case '+':
     result = a + b;
+
     break;
   case '-':
     result = a - b;
+
     break;
   case '*':
     result = a * b;
+
     break;
   case '/':
     result = a / b;
