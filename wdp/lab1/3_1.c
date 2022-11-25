@@ -1,3 +1,5 @@
+// Oblicza pole i obwod kola
+
 #include <stdio.h>
 
 int main()

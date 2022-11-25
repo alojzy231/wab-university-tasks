@@ -1,3 +1,5 @@
+// Konwerter liczb dziesietnych na binarne, osemkowe i szesnastkowe
+
 #include <stdio.h>
 
 int main(int argc, char *argv[])

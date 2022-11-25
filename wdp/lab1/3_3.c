@@ -1,3 +1,5 @@
+// Kalkulator prosty
+
 #include <stdio.h>
 int main()
 {

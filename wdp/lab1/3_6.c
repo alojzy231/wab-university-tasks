@@ -1,3 +1,5 @@
+// Wyświetla rozmiar roznych typow prostych w bajtach
+
 #include <stdio.h>
 int main()
 {

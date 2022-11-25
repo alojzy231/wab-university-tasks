@@ -1,3 +1,5 @@
+// Oblicza kolejne wyrazy ciagu fibonnaciego
+
 #include <stdio.h>
 int main()
 {
@@ -7,16 +9,20 @@ int main()
     scanf("%d", &stepsNumber);
 
     printf("1 wyrazem ciagu fibonacciego jest liczba: %d\n", firstFibNumber);
-    printf("2 wyrazem ciagu fibonacciego jest liczba: %d\n", secondFibNumber);
 
-    for (int currentStepNumber = 3; currentStepNumber <= stepsNumber; currentStepNumber++)
+    if (stepsNumber > 1)
     {
-        int currentFibNumber = firstFibNumber + secondFibNumber;
+        printf("2 wyrazem ciagu fibonacciego jest liczba: %d\n", secondFibNumber);
 
-        printf("%d wyrazem ciagu fibonacciego jest liczba: %d\n", currentStepNumber, currentFibNumber);
+        for (int currentStepNumber = 3; currentStepNumber <= stepsNumber; currentStepNumber++)
+        {
+            int currentFibNumber = firstFibNumber + secondFibNumber;
 
-        firstFibNumber = secondFibNumber;
-        secondFibNumber = currentFibNumber;
+            printf("%d wyrazem ciagu fibonacciego jest liczba: %d\n", currentStepNumber, currentFibNumber);
+
+            firstFibNumber = secondFibNumber;
+            secondFibNumber = currentFibNumber;
+        }
     }
 
     getchar();

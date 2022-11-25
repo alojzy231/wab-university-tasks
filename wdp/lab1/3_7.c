@@ -1,3 +1,5 @@
+// Oblicza dzialanie matematyczne
+
 #include <stdio.h>
 #include <math.h>
 
