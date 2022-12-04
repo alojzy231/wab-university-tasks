@@ -34,6 +34,8 @@ int main()
 
         if (c == 27)
             break;
+        if (c == 32)
+            printf(" ");
 
         printEncryptedChar(c, 48, 57);  // numbers
         printEncryptedChar(c, 65, 90);  // uppercase

@@ -16,5 +16,5 @@ int suma_tab(int tab[], int size)
 
 int main(void)
 {
-    printf("Suma wynosi: %d", suma_tab(a, 10));
+    printf("Suma wynosi: %d\n", suma_tab(a, 10));
 }
