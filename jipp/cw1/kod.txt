@@ -1,0 +1,49 @@
+silnia1 n = if n == 0 then 1
+              else n * silnia1 (n-1)
+
+silnia2 n | n == 0 = 1
+          | otherwise = n * silnia2 (n-1)
+
+silnia3 n = case n of 0 -> 1
+                      1 -> 1
+                      n -> n * silnia3 (n-1)
+
+silnia4 0 = 1
+silnia4 n = n * silnia4 (n-1)
+
+fibo1 1 = 1
+fibo1 2 = 1
+fibo1 n = fibo1(n - 1) + fibo1 (n - 2)
+
+fibo2 n = case n of 1 -> 1
+                    2 -> 1
+                    n -> fibo2 (n - 1) + fibo2 (n - 2)
+
+fibo3  n | n == 1 = 1
+         | n == 2 = 1
+         | otherwise = fibo3 (n - 1) + fibo3 (n -2)
+
+fibo4  n = if n < 3 then 1
+            else fibo4 (n - 1) + fibo4 (n - 2)
+
+potegaA n 1 = n
+potegaA n m = n * potegaA n (m-1)
+
+potegaB n m | m == 0 = 1
+            | m == 1 = n
+            | m > 0 = n * potegaB n (m - 1)
+            | m < 0 = 1 / (n * potegaB n ((-m) - 1))
+
+main = do
+  print $ silnia1 5
+  print $ silnia2 5
+  print $ silnia3 5
+  print $ silnia4 5
+  print $ fibo1 7
+  print $ fibo2 7
+  print $ fibo3 7
+  print $ fibo4 7
+  print $ potegaA 2 10
+  print $ potegaB 2 0
+  print $ potegaB 2 (-1)
+  print $ potegaB 2 (-2)
