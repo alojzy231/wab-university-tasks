@@ -1,0 +1,13 @@
+Zad 5.2 Pętla i warunek 
+
+Zad 5.3 Pętla i wartość średnia 
+
+Zad 5.4 Ile jest liczb parzystych w zakresie? 
+
+Zad 5.5 Liczenie bitów 
+
+Zad 5.6 Trojkat
+
+Zad 5.7 Zliczanie znaków 
+
+Zad 5.9  Tablica sum liczb 
