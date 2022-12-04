@@ -2,33 +2,34 @@
 
 int main()
 {
-    for (int i = 0; i <= 10; i++)
+    int multiplicationTable[10][10];
+
+    for (int i = 0; i < 10; i++)
     {
-        for (int j = 0; j <= 10; j++)
+        for (int j = 0; j < 10; j++)
         {
-            int multiplication = i * j;
-
-            if (multiplication == 0)
-            {
-                printf("   ");
-            }
-            else
-            {
-                if (multiplication < 10)
-                {
-                    printf("  ");
-                }
-                else if (multiplication < 100)
-                {
-                    printf(" ");
-                }
-
-                printf("%d", multiplication);
-            }
-
-            printf("   ");
+            multiplicationTable[i][j] = (i + 1) * (j + 1);
         }
-        printf("\n");
+    }
+
+    for (int i = 0; i < 10; i++)
+    {
+        for (int j = 0; j < 10; j++)
+        {
+
+            if (multiplicationTable[i][j] < 10)
+            {
+                printf("  ");
+            }
+            else if (multiplicationTable[i][j] < 100)
+            {
+                printf(" ");
+            }
+
+            printf(" %d", multiplicationTable[i][j]);
+        }
+
+        printf("   \n");
     }
 
     return 0;
