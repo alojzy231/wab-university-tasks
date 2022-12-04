@@ -1,7 +1,3 @@
-// 1-0, 48-57
-// a-z, 97-122
-// A-Z, 65-90
-
 #include <stdio.h>
 
 void printEncryptedChar(char c, int minValue, int maxValue)
@@ -30,7 +26,6 @@ int main()
     while (1)
     {
         c = getchar();
-        // printf(" znak: %c kod: %d\n", c, c);
 
         if (c == 27)
             break;
