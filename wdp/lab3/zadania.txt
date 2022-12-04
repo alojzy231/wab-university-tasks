@@ -1,0 +1,11 @@
+Zad 5.10 Tabliczka mnożenia 
+
+Zad 5.11 Szyfr Cezara 
+
+Zad 6.1 Znajdowanie maksimum w tablicy liczb 
+
+Zad 6.2 Znajdowanie maksimum w tablicy liczb – funkcja 
+
+Zad 6.3 Sumowanie elementów tablicy – funkcja 
+
+Zad 6.4 Sortowania bąbelkowe 
