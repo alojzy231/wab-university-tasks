@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void)
+int main()
 {
     int counter = 0;
 
@@ -12,7 +12,7 @@ int main(void)
         }
     }
 
-    printf("Liczb z zakresu od 1 do 100, większych od 3 jest: %d\n", counter);
+    printf("Liczb z zakresu od 1 do 100, wiekszych od 3 jest: %d\n", counter);
 
     return 0;
 }

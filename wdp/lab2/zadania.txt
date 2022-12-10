@@ -10,4 +10,6 @@ Zad 5.6 Trojkat
 
 Zad 5.7 Zliczanie znaków 
 
+Zad 5.8 Petla while
+
 Zad 5.9  Tablica sum liczb 
