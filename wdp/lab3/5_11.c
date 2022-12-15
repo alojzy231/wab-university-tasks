@@ -8,6 +8,8 @@ void printEncryptedChar(char c, int key, int minValue, int maxValue)
     {
         if (newC > maxValue)
             newC -= maxValue - minValue + 1;
+        else if (newC < minValue)
+            newC += maxValue - minValue + 1;
 
         printf("%c", newC);
     }
