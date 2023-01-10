@@ -46,5 +46,5 @@ int main()
 
     printf("\nW tekscie jest slow: %d\n", ls);
 
-    return ls;
+    return 0;
 }

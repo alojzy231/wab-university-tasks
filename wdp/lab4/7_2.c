@@ -14,7 +14,12 @@ int dlug_napis(char text[])
 
 int main()
 {
-    printf("%d", dlug_napis("Dlugi napis"));
+    char text[20];
+
+    printf("Podaj napis: ");
+    gets(text);
+
+    printf("Napis ma długość: %d\n", dlug_napis(text));
 
     return 0;
 }

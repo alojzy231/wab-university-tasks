@@ -27,5 +27,5 @@ int main(int argc, char *argv[])
     }
 
     printf("Haslo bledne, brak prob\n");
-    return 1;
+    return 0;
 }
