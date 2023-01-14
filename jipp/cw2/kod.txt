@@ -1,0 +1,41 @@
+cyfry1 l  | (l >= 0) && (l < 10)  = show l
+          | l == 10 = "A"
+          | l == 11 = "B"
+          | l == 12 = "C"
+          | l == 13 = "D"
+          | l == 14 = "E"
+          | l == 15 = "F"
+          | otherwise = ""
+
+cyfry l | l == 0  = "0"
+        | l == 1  = "1"
+        | l == 2  = "2"
+        | l == 3  = "3"
+        | l == 4  = "4"
+        | l == 5  = "5"
+        | l == 6  = "6"
+        | l == 7  = "7"
+        | l == 8  = "8"
+        | l == 9  = "9"
+        | l == 10 = "A"
+        | l == 11 = "B"
+        | l == 12 = "C"
+        | l == 13 = "D"
+        | l == 14 = "E"
+        | l == 15 = "F"
+        | otherwise = ""
+
+zdzie1 a p = if (a > 0) then do 
+                    zdzie1 (div a p) p
+                    putStr (cyfry1 (mod a p))
+                    else 
+                      putStr ""
+
+zdzie2 a p = if (a > 0) then zdzie2 (div a p) p ++ (cyfry1 (mod a p))
+                    else 
+                      ""
+
+main = do
+  zdzie1 176 16
+  putStrLn  " "
+  putStr (zdzie2 176 16)
