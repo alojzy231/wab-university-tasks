@@ -1,0 +1,7 @@
+Zad 8.6 Zarządzanie bazą danych opartą na tablicy 
+
+Zad 9.1 Odczyt pliku
+
+Zad 9.2 Kopiowanie plików
+
+Zad 9.3 Baza danych osobowych oparta na tablicy, rozszerzenie o zapis do pliku 
