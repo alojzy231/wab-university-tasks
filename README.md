@@ -7,3 +7,5 @@
 ### JIPP - języki i paradygmaty programowania
 
 ### MD - matematyka dyskretna
+
+### PO - programowanie obiektowe
